@@ -4,5 +4,5 @@
     echo strlen($stringa);
 
     $_GET["censura"];
-    $stringa_censurata = str_replace('censura', '***', $stringa)
+    $stringa_censurata = str_replace($_GET, '***', $stringa)
 ?>
