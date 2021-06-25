@@ -1,3 +1,4 @@
 <?php 
-    echo 'Questa è una stringa di prova';
+    $stringa = "Questa è una stringa di prova";
+    echo strlen($stringa);
 ?>
